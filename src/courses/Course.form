@@ -59,12 +59,16 @@
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="rbNo" min="-2" max="-2" attributes="0"/>
                                   <Component id="rbElective" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rbNo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="102" max="32767" attributes="0"/>
+                                      <Component id="btnsave" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -104,8 +108,9 @@
                   <Component id="lblLab" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="rbYes" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="rbNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnsave" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -193,6 +198,14 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="No"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnsave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SAVE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsaveActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
